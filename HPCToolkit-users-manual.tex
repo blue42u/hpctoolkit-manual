@@ -218,7 +218,7 @@ into a program's shortcomings.
 
 
 \begin{figure}[t]
-\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-code-centric}}
+\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-code-centric.png}}
 \caption{A code-centric view of an execution of the University of Chicago's FLASH code executing on 8192 cores of a Blue Gene/P. This bottom-up view shows that 16\% of the execution time was spent in IBM's DCMF messaging layer. By tracking these costs up the call chain, we can see that most of this time   was spent on behalf of calls to {\tt pmpi\_allreduce} on line 419 of {\tt amr\_comm\_setup}.}
 \label{fig:code-centric}
 \end{figure}
@@ -232,7 +232,7 @@ binary analysis exclusively.
 On x86\_64 processors, HPCToolkit employs both strategies in an integrated fashion.
 
 \begin{figure}[t]
-\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-thread-centric}}
+\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-thread-centric.png}}
 \caption{A thread-centric view of the performance of a parallel radix sort application executing on 960 cores of a Cray XE6. The bottom pane shows a calling context for {\tt usort} in the execution. The top pane shows a graph of how much time each thread spent executing calls to {\tt usort} from the   highlighted context.  On a Cray XE6, there is one MPI helper thread for each compute node in the system; these helper threads spent no time executing {\tt usort}. The graph shows that some of the MPI ranks spent twice as much time in {\tt usort} as others. This happens because the radix sort divides up the work into 1024 buckets. In an execution on 960 cores,  896 cores work on one bucket and 64 cores work on two. The middle pane shows an alternate view of the thread-centric data as a histogram.}
 \label{fig:thread-centric}
 \end{figure}
@@ -245,7 +245,7 @@ This multiplicity of code-centric perspectives is essential to understanding a p
 
 
 \begin{figure}[t]
-\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-time-centric}}
+\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-time-centric.png}}
 \caption{A time-centric view of  part of an execution of the University of Chicago's FLASH code  on 256 cores of a Blue Gene/P. The figure shows a detail from the end of the initialization phase and  part of the first iteration of the solve phase. The largest pane in the figure shows the activity of cores 2--95 in the execution during a time interval ranging from 69.376s--85.58s during the execution.  Time lines for threads are arranged from top to bottom and time flows from left to right. The color at any point in time for a thread indicates the procedure that the thread is executing at that time. The right pane shows the full call stack of thread 85 at 84.82s into the execution, corresponding to the selection shown by the white crosshair; the outermost procedure frame of the call stack is shown at the top of the pane and the innermost frame is shown at the bottom. This view highlights that even though FLASH is an SPMD program, the behavior of threads over time can be quite different. The purple region highlighted by the cursor, which represents a call by all processors to {\tt mpi\_allreduce}, shows that the time spent in this call varies across the processors. The variation in time spent waiting in {\tt mpi\_allreduce} is readily explained by an imbalance in the time processes spend a prior prolongation step, shown in yellow. Further left in the figure, one can see differences among ranks executing on different cores in each node as they await the  completion of an {\tt mpi\_allreduce}. A rank executing on one core of each node waits in {\tt DCMF\_Messager\_advance} (which appears as blue stripes) while ranks executing on other cores in each node wait in a helper function (shown in green). In this phase, ranks await the delayed arrival of a few of their peers who have extra work to do inside {\tt simulation\_initblock} before they call  {\tt mpi\_allreduce}. }
 \label{fig:time-centric}
 \end{figure}
@@ -278,7 +278,7 @@ as well as other clusters and supercomputers based on x86\_64, Power, and ARM pr
 
 
 \begin{figure}[t]
-\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-gpu-workflow}}
+\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-gpu-workflow.svg}}
 \caption{Overview of \HPCToolkit{}'s tool work flow.}
 
 \label{fig:hpctoolkit-overview:a}
@@ -429,7 +429,7 @@ It assumes an operational installation of \HPCToolkit{}.
 \label{chpt:quickstart:tour}
 
 \begin{figure}[t]
-\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-gpu-workflow}}
+\centering{\includegraphics[width=.8\textwidth]{fig/hpctoolkit-gpu-workflow.svg}}
 \caption{Overview of \HPCToolkit{} tool's work flow.}
 \label{fig:hpctoolkit-overview:b}
 \end{figure}
@@ -743,7 +743,7 @@ Positional names for metrics you use in your formula can be determined using the
 If you select your metric of choice using the pull-down, you can insert its positional name into the formula using the {\em insert metric} button, or you can simply type the positional name directly into the formula.
 
 \begin{figure}[t]
-\center{\includegraphics[width=1.0\textwidth]{fig/cycles-per-inst-2}}
+\center{\includegraphics[width=1.0\textwidth]{fig/cycles-per-inst-2.png}}
 %Two possible representations for the call path fragment $\ldots s_1 \rightarrow s_2 \ldots$, where $s_1$ and $s_2$ are call sites and where $s_1$ represents a call from $p$ to $q$ and $s_2$ a call from $q'$ to $r$.
 \caption{Displaying the new {\em cycles/ instruction} derived metric in \hpcviewer{}.}
 \label{fig:cycles-per-inst-2}
