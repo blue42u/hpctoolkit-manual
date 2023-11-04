@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="136"
+   height="189.33333"
+   viewBox="0 0 136 189.33333"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <path
+         d="M 0,0 H 792 V 612 H 0 Z"
+         id="path16" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath32">
+      <path
+         d="m 201.11999,357.44 h 83.52002 v 41.28 h -83.52002 z"
+         clip-rule="evenodd"
+         id="path30" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath44">
+      <path
+         d="M 0,111.04 V 705.12 H 1056 V 111.04 Z"
+         clip-rule="evenodd"
+         id="path42" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath94">
+      <path
+         d="M -240.96001,-160.64 V 433.44 H 815.03998 v -594.08 z"
+         clip-rule="evenodd"
+         id="path92" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath110">
+      <path
+         d="M -215.2,-278.56 V 315.51999 H 840.79999 V -278.56 Z"
+         clip-rule="evenodd"
+         id="path108" />
+    </clipPath>
+  </defs>
+  <g
+     id="g8"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,189.33333)">
+    <g
+       id="g10"
+       transform="translate(-135,-278)">
+      <g
+         id="g12">
+        <g
+           id="g14"
+           clip-path="url(#clipPath18)">
+          <g
+             id="g20"
+             transform="matrix(0.75,0,0,-0.75,0,612)">
+            <g
+               id="g22">
+              <path
+                 d="M 0,111.04 H 1056 V 705.12 H 0 Z"
+                 style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="path24" />
+            </g>
+            <g
+               id="g26">
+              <g
+                 id="g28"
+                 clip-path="url(#clipPath32)">
+                <g
+                   id="g34"
+                   transform="matrix(83.519997,0,0,-41.279999,201.11999,398.72)">
+                  <image
+                     width="1"
+                     height="1"
+                     style="image-rendering:optimizeSpeed"
+                     preserveAspectRatio="none"
+                     transform="matrix(1,0,0,-1,0,1)"
+                     xlink:href="data:image/png;base64,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"
+                     id="image36" />
+                </g>
+              </g>
+            </g>
+            <g
+               id="g38">
+              <g
+                 id="g40"
+                 clip-path="url(#clipPath44)">
+                <g
+                   id="g46"
+                   transform="translate(241.11999,272.16)">
+                  <path
+                     d="M 0,0 0.16,26.719999 H -0.96 L -1.12,0 Z m 2.88,25.6 -3.36,6.56 -3.2,-6.56 z"
+                     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="path48" />
+                </g>
+                <g
+                   id="g50"
+                   transform="translate(240.32001,330.56)">
+                  <path
+                     d="M 0,0 -22.719999,27.84 -21.92,28.48 0.8,0.8 Z m -24.16,25.280001 -1.6,7.199999 6.719999,-3.039999 z"
+                     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="path52" />
+                </g>
+                <g
+                   id="g54"
+                   transform="translate(241.11999,330.56)">
+                  <path
+                     d="M 0,0 24,28.639999 23.200001,29.280001 -0.8,0.8 Z m 25.440001,25.92 1.76,7.199999 L 20.32,30.24 Z"
+                     style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                     id="path56" />
+                </g>
+              </g>
+            </g>
+            <g
+               id="g58"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(7673.6001,10771.7)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text62"><tspan
+                   x="0 101.5808 268.6976 409.60001 576.7168 743.83356 829.0304 888.01276 1055.1295"
+                   y="0"
+                   id="tspan60">(0x10, 1)</tspan></text>
+            </g>
+            <g
+               id="g64"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(7286.3999,12862.9)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text68"><tspan
+                   x="0 101.5808 268.6976 409.60001 576.7168 743.83356 829.0304 888.01276 1055.1295"
+                   y="0"
+                   id="tspan66">(0x30, 1)</tspan></text>
+            </g>
+            <g
+               id="g70"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(9467.04,12851)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text74"><tspan
+                   x="0 101.5808 268.6976 409.60001 576.7168 743.83356 829.0304 888.01276 1055.1295"
+                   y="0"
+                   id="tspan72">(0x40, 2)</tspan></text>
+            </g>
+            <g
+               id="g76"
+               transform="scale(0.046875)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(5038.0801,5690.0801)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text80"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan78">A</tspan></text>
+            </g>
+            <g
+               id="g82"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(9163.2002,10003.2)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text86"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan84">2</tspan></text>
+            </g>
+            <g
+               id="g88"
+               transform="translate(240.96001,271.67999)">
+              <g
+                 id="g90"
+                 clip-path="url(#clipPath94)">
+                <path
+                   d="M 0,0 42.720001,29.440001 42.240002,30.4 -0.64,0.96 Z m 43.52,26.559999 3.520001,6.4 L 39.68,32 Z"
+                   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path96" />
+              </g>
+            </g>
+            <g
+               id="g98"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(10092.5,10759.8)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text102"><tspan
+                   x="0 101.5808 268.6976 409.60001 576.7168 743.83356 829.0304 888.01276 1055.1295"
+                   y="0"
+                   id="tspan100">(0x20, 1)</tspan></text>
+            </g>
+            <g
+               id="g104"
+               transform="translate(215.2,389.60001)">
+              <g
+                 id="g106"
+                 clip-path="url(#clipPath110)">
+                <path
+                   d="M 0,0 V 28.16 H -1.12 V 0 Z m 2.72,27.040001 -3.2,6.719997 -3.36,-6.719997 z"
+                   style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                   id="path112" />
+              </g>
+            </g>
+            <g
+               id="g114"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(6702.5601,15109)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text118"><tspan
+                   x="0 101.5808 268.6976 409.60001 576.7168 743.83356 829.0304 888.01276 1055.1295"
+                   y="0"
+                   id="tspan116">(0x70, 0)</tspan></text>
+            </g>
+            <g
+               id="g120"
+               transform="scale(0.046875)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(6055.2002,6891.52)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text124"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan122">C</tspan></text>
+            </g>
+            <g
+               id="g126"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(10932.6,12106.2)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text130"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan128">0</tspan></text>
+            </g>
+            <g
+               id="g132"
+               transform="scale(0.046875)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(5044.96,6884.6401)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text136"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan134">B</tspan></text>
+            </g>
+            <g
+               id="g138"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(9133.2803,12124.2)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text142"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan140">3</tspan></text>
+            </g>
+            <g
+               id="g144"
+               transform="scale(0.046875)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(4474.8799,8137.4399)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text148"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan146">D</tspan></text>
+            </g>
+            <g
+               id="g150"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(8156.3198,14269)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text154"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan152">2</tspan></text>
+            </g>
+            <g
+               id="g156"
+               transform="scale(0.046875)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(5645.6001,8151.04)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text160"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan158">E</tspan></text>
+            </g>
+            <g
+               id="g162"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(10110.4,14304.8)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text166"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan164">3</tspan></text>
+            </g>
+            <g
+               id="g168"
+               transform="scale(0.046875)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(4505.6001,9424.1602)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text172"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan170">F</tspan></text>
+            </g>
+            <g
+               id="g174"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(8156.3198,16533)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text178"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan176">3</tspan></text>
+            </g>
+            <g
+               id="g180"
+               transform="scale(0.046875)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(6144,8171.52)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text184"><tspan
+                   x="0 150.7328 324.4032"
+                   y="0"
+                   id="tspan182">SCC</tspan></text>
+            </g>
+            <g
+               id="g186"
+               transform="scale(0.026856)">
+              <text
+                 xml:space="preserve"
+                 transform="translate(11605.8,14304.8)"
+                 style="font-variant:normal;font-weight:normal;font-size:327.68px;font-family:F1;-inkscape-font-specification:F1;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                 id="text190"><tspan
+                   x="0"
+                   y="0"
+                   id="tspan188">5</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

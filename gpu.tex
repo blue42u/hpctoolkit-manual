@@ -306,7 +306,7 @@ Figure~\ref{table:pc-stall} shows the stall metrics recorded by HPCToolkit using
 
 
 \begin{figure}[t]
-\includegraphics[width=\textwidth]{fig/mental-model.pdf}
+\includegraphics[width=\textwidth]{fig/mental-model.svg}
 \caption{NVIDIA's GPU PC sampling example on an SM. $P-6P$ represent
 six sample periods P cycles apart. $S_{1}-S_{4}$ represent four schedulers on an SM.}
 \label{fig:pc sampling}
@@ -377,7 +377,7 @@ With complex code generated from template-based GPU programming models, calling 
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\textwidth]{fig/qs-no-cct.pdf}
+\includegraphics[width=\textwidth]{fig/qs-no-cct.svg}
 \caption{A screenshot of \hpcviewer{} for the GPU-accelerated Quicksilver proxy app without GPU CCT reconstruction.}
 \label{qs-no-cct}
 \end{figure}
@@ -406,25 +406,25 @@ treats an SCC vertex as a normal ``function'' in the call graph.
 \centering
 \begin{subfigure}{0.22\textwidth}
 \centering
-\includegraphics[width=0.6\textwidth]{fig/cct-1.pdf}
+\includegraphics[width=0.6\textwidth]{fig/cct-1.svg}
 \caption{}
 \end{subfigure}
 ~
 \begin{subfigure}{0.22\textwidth}
 \centering
-\includegraphics[width=0.6\textwidth]{fig/cct-2.pdf}
+\includegraphics[width=0.6\textwidth]{fig/cct-2.svg}
 \caption{}
 \end{subfigure}
 ~
 \begin{subfigure}{0.22\textwidth}
 \centering
-\includegraphics[width=0.6\textwidth]{fig/cct-3.pdf}
+\includegraphics[width=0.6\textwidth]{fig/cct-3.svg}
 \caption{}
 \end{subfigure}
 ~
 \begin{subfigure}{0.22\textwidth}
 \centering
-\includegraphics[width=0.8\textwidth]{fig/cct-4.pdf}
+\includegraphics[width=0.8\textwidth]{fig/cct-4.svg}
 \caption{}
 \end{subfigure}
 \caption{Reconstruct a GPU calling context tree. A-F represent GPU functions. Each subscript denotes the number of samples associated with the function. Each $(a, c)$ pair indicates an edge at address $a$ has $c$ call instruction samples.}
@@ -433,7 +433,7 @@ treats an SCC vertex as a normal ``function'' in the call graph.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\textwidth]{fig/qs-cct.pdf}
+\includegraphics[width=\textwidth]{fig/qs-cct.svg}
 \caption{A screenshot of \hpcviewer{} for the GPU-accelerated Quicksilver proxy app with GPU CCT reconstruction.}
 \label{qs-cct}
 \end{figure}
