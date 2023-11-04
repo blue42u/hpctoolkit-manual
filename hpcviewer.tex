@@ -85,7 +85,7 @@ On MacOS, this file is located at \texttt{hpcviewer.app/Contents/Eclipse/hpcview
 \label{sec:profile}
 
 \begin{figure}[t]
-\centering{\includegraphics[width=\textwidth]{fig/hpcviewer-legend.png}}
+\centering\includegraphics[width=\textwidth]{fig/hpcviewer-legend.png}
 \caption{An annotated screenshot of \hpcviewer{}'s interface.}
 \label{fig:hpcviewer-legend}
 \end{figure}
@@ -347,19 +347,19 @@ h () {
 
 
 \begin{figure}[t]
-\centering{\includegraphics[scale=0.5]{fig/metrics-cct.png}}
+\centering\includegraphics[scale=0.5]{fig/metrics-cct.png}
 \caption{Top-down View. Each node of the tree has three boxes: the left-most is the name of the node (or in this case the name of the routine, the center is the inclusive value, and on the right is the exclusive value.}
 \label{fig:cct}
 \end{figure}
 
 \begin{figure}
-\centering{\includegraphics[scale=0.5]{fig/metrics-callers.png}}
+\centering\includegraphics[scale=0.5]{fig/metrics-callers.png}
 \caption{Bottom-up View}
 \label{fig:metrics-callers}
 \end{figure}
 
 \begin{figure}
-\centering{\includegraphics[scale=0.5]{fig/metrics-flat.png}}
+\centering\includegraphics[scale=0.5]{fig/metrics-flat.png}
 \caption{Flat View}
 \label{fig:metrics-flat}
 \end{figure}
@@ -447,7 +447,7 @@ avg($0, $2, $4. $6. $8) / avg($1, $3, $5, $7, $9)
 \subsection{Creating Derived Metrics}
 
 \begin{figure}[t]
-\centering{\includegraphics[width=0.8\textwidth]{fig/hpcviewer-dialog-derived-metric.png}}
+\centering\includegraphics[width=0.8\textwidth]{fig/hpcviewer-dialog-derived-metric.png}
 \caption{Derived metric dialog box}
 \label{fig:hpcviewer-derived-dialog-box}
 \end{figure}
@@ -527,7 +527,7 @@ GPUSTREAM is a stream or queue used to push work to a GPU.
 \subsection{Plot Graphs}
 \label{sec:hpcviewer:plots}
 \begin{figure}[t]
-\centering{\includegraphics[width=0.8\textwidth]{fig/hpcviewer-view-rawmetrics.png}}
+\centering\includegraphics[width=0.8\textwidth]{fig/hpcviewer-view-rawmetrics.png}
 \caption{Plot graph view of a procedure in GAMESS MPI+OpenMP application showing a imbalance where a group of execution contexts have much higher GPU operations than others.}
 \label{fig:hpcviewer-view-scatterplot}
 \end{figure}
@@ -573,13 +573,13 @@ Currently, it is only possible to generate scatter plots for metrics directly co
 \hpcviewer{} also provides a feature to view the metrics of a certain execution contexts (threads and/or processes) named Thread View.
 
 \begin{figure}[t]
-\centering{\includegraphics[width=0.8\textwidth]{fig/hpcviewer-dialog-thread.png}}
+\centering\includegraphics[width=0.8\textwidth]{fig/hpcviewer-dialog-thread.png}
 \caption{A snapshot of a thread filter dialog. Users can refine the list of threads using regular expression by selecting the Regular expression checkbox.}
 \label{fig:hpcviewer-dialog-thread-select}
 \end{figure}
 
 \begin{figure}[t]
-\centering{\includegraphics[width=0.8\textwidth]{fig/hpcviewer-thread-table.png}}
+\centering\includegraphics[width=0.8\textwidth]{fig/hpcviewer-thread-table.png}
 \caption{Example of a Thread View which display thread-level metrics of a set of threads. The first column is a CCT equivalent to the CCT in the Top-down View, the second and third columns represent the metrics of the selected threads (in this case they are the sum of metrics from threads 0.1, to 7.1)}
 \label{fig:hpcviewer-view-thread-level}
 \end{figure}
@@ -777,7 +777,7 @@ Otherwise, the configuration will be applied only on the current view.
 
 
 \begin{figure}[t]
-\centering{\includegraphics[width=\textwidth]{fig/hpctraceviewer-callpath.png}}
+\centering\includegraphics[width=\textwidth]{fig/hpctraceviewer-callpath.png}
 \caption{Logical view of trace call path samples on three dimensions: time, execution context (rank/thread/GPU) and call path depth.}
 \label{fig:hpctraceviewer-callpath}
 \end{figure}
@@ -805,13 +805,13 @@ This might indicate that the processes first are observed in an initialization p
 
 
 \begin{figure}[t]
-\centering{\includegraphics[width=.8\textwidth]{fig/traceview-legend.png}}
+\centering\includegraphics[width=.8\textwidth]{fig/traceview-legend.png}
 \caption{A screenshot of \hpcviewer{}'s Trace view.}
 \label{fig:hpctraceviewer-legend}
 \end{figure}
 
 \begin{figure}[t]
-\centering{\includegraphics[width=.8\textwidth]{fig/traceview-stat.png}}
+\centering\includegraphics[width=.8\textwidth]{fig/traceview-stat.png}
 \caption{A screenshot of \hpcviewer{}'s Trace view showing the \summaryview{} and \statview.}
 \label{fig:hpctraceviewer-stat}
 \end{figure}
@@ -1015,7 +1015,7 @@ This menu only contains one submenu:
 \subsection{View}
 
 \begin{figure}[t]
-\centering{\includegraphics[width=3.4in]{fig/hpctraceviewer-dialog-mapping.png}}
+\centering\includegraphics[width=3.4in]{fig/hpctraceviewer-dialog-mapping.png}
 \caption{Procedure-color mapping dialog box. This window shows that any procedure names that match with "MPI*" pattern are assigned with red, while procedures that match with "PMPI*" pattern are assigned with color black.}
 \label{fig:hpctraceviewer-mapping}
 \end{figure}
